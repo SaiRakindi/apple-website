@@ -46,7 +46,7 @@ const Hero = () => {
 
         <div className="md:w-10/12 w-9/12">
           <video
-            autoPlay
+            autoPlay={true}
             muted
             playsInline
             key={videoSrc}
